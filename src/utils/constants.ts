@@ -8,7 +8,7 @@ type ChainConfig = {
 
 const WETH_NOT_SUPPORTED_ON_CHAIN = '0x0000000000000000000000000000000000000000'
 
-const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
+export const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
   // mainnet
   [1]: {
     router: '0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD',
@@ -98,6 +98,12 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
     router: '0xeC8B0F7Ffe3ae75d7FfAb09429e3675bb63503e4',
     weth: '0x4200000000000000000000000000000000000006',
     creationBlock: 3229053,
+  },
+  // base mainnet
+  [2154]: {
+    router: '0x707156991C6C435CC39ae7d5ACC9349614aE9E92',
+    weth: '0xe0F724F534968ed4B7a092e81FF6c6a6F471DeC3',
+    creationBlock: 1,
   },
 }
 

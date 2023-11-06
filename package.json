@@ -1,7 +1,7 @@
 {
-  "name": "@uniswap/universal-router-sdk",
-  "version": "1.5.8",
-  "description": "sdk for integrating with the Universal Router contracts",
+  "name": "@hitesh.sharma_/universal-router-sdk",
+  "version": "1.5.8-cdk-0",
+  "description": "sdk for integrating",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -60,10 +60,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Uniswap/universal-router-sdk.git"
+    "url": "git+https://github.com/hitesh-zeeve/universal-router-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/Uniswap/universal-router-sdk/issues"
+    "url": "https://github.com/hitesh-zeeve/universal-router-sdk/issues"
   },
-  "homepage": "https://github.com/Uniswap/universal-router-sdk#readme"
+  "homepage": "https://github.com/hitesh-zeeve/universal-router-sdk#readme"
 }

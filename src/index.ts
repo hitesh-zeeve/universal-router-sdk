@@ -1,6 +1,7 @@
 export { SwapRouter } from './swapRouter'
 export * from './entities'
 export {
+  CHAIN_CONFIGS,
   UNIVERSAL_ROUTER_ADDRESS,
   UNIVERSAL_ROUTER_CREATION_BLOCK,
   PERMIT2_ADDRESS,
