@@ -100,7 +100,7 @@ export const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
     creationBlock: 3229053,
   },
   // base mainnet
-  [2154]: {
+  [1010]: {
     router: '0x707156991C6C435CC39ae7d5ACC9349614aE9E92',
     weth: '0xe0F724F534968ed4B7a092e81FF6c6a6F471DeC3',
     creationBlock: 1,
